@@ -1,0 +1,3 @@
+def number(bus_stops):
+    return sum(stay - leave for stay, leave in bus_stops)
+
