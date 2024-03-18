@@ -7,3 +7,6 @@ def quarter_of(month):
         return 3
     else:
         return 4
+    
+def quarter_of(month):
+    return (month + 2) // 3
