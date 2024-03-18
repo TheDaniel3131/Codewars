@@ -3,7 +3,7 @@ def quarter_of(month):
         return 1
     elif 3 < month <= 6:
         return 2
-    elif 6 < month < 9:
+    elif 6 < month <= 9:
         return 3
     else:
         return 4
