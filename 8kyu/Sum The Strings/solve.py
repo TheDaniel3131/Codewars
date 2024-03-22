@@ -5,3 +5,5 @@ def sum_str(a, b):
         ab = int(a or "0") + int(b or "0")
         return str(ab)
 
+def sum_str(a, b):
+    return str(int(a or 0) + int(b or 0))
